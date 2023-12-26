@@ -10,9 +10,6 @@ export const Navbar = () => {
           <Link href={`/`}>Home</Link>
         </li>
         <li className="hover:text-gray-300 hover:cursor-pointer">
-          <Link href={`/shopping`}>Shopping</Link>
-        </li>
-        <li className="hover:text-gray-300 hover:cursor-pointer">
           {" "}
           <Link href={`/cart`}>Cart</Link>
         </li>

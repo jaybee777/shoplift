@@ -1,5 +1,11 @@
 // import Image from "next/image";
 
+import ProductCard from "./components/ProductCard";
+
 export default function Home() {
-  return <div> home page</div>;
+  return (
+    <div>
+      <ProductCard />
+    </div>
+  );
 }
