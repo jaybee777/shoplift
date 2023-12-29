@@ -1,11 +1,11 @@
 // import Image from "next/image";
-
-import ProductCard from "./components/ProductCard";
+import { SideBar } from "./components/SideBar";
+// import ProductCard from "./components/ProductCard";
 
 export default function Home() {
   return (
     <div>
-      <ProductCard />
+      <SideBar />
     </div>
   );
 }
