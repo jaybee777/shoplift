@@ -1,7 +1,15 @@
 import "./App.css";
+import { Button } from "@/components/ui/button";
 
 function App() {
-  return <h2 className="  text-orange-400 text-center">hello</h2>;
+  return (
+    <>
+      <div>
+        <h1>hello click the button below</h1>
+        <Button variant={"link"}>Click me</Button>
+      </div>
+    </>
+  );
 }
 
 export default App;
